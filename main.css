@@ -1,0 +1,28 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  background-color: #41c676;
+  width:75px;
+  height:60px;
+  color:white;
+  padding:0 0;
+}
+#display{
+  width:208px;
+  padding-left: 15px;
+}
+table{
+  border: 2px solid black;
+}
+.operator{
+background-color:#449966;
+}
+td{
+  padding:0 0;
+}
