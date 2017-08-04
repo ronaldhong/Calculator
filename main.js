@@ -160,12 +160,7 @@ td.appendChild(br);
 
 // create keys  and append it to td
 for (let i=1;i<17;i++){
-  //FAIL ATTEMPT>
-  // const html=`
-  //   <input type=${cal_keys[i].type} value="${cal_keys[i].value}" onClick=${cal_keys[i].onClick}
-  // `
-  // console.log(html)
-  // document.querySelector('td').insertAdjacentHTML('beforeend', html)
+
   input= document.createElement('input');
   input.type =cal_keys[i].type;
   input.value= cal_keys[i].value;

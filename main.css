@@ -6,23 +6,39 @@ body{
 }
 input{
   text-decoration: none;
-  border: 1px solid #ffffff;
-  background-color: #41c676;
+  border: 1px solid #BC7237;
+  background: white;
   width:75px;
   height:60px;
-  color:white;
+  color:black;
   padding:0 0;
+  font-size: 1em;
+
 }
 #display{
   width:208px;
   padding-left: 15px;
+  background-color: white;
+  font-size: 1em;
 }
 table{
-  border: 2px solid black;
+  border: 2px solid #BC7237;
 }
 .operator{
-background-color:#449966;
+  background: linear-gradient(180deg, #2d2c2c, #A26226, #B67227);
+
 }
 td{
   padding:0 0;
+}
+.back_cover{
+  /*top:0;
+  left:0;*/
+  width: 375px;
+  height:375px;
+  position: absolute;
+  background-image: url("https://lh3.googleusercontent.com/O8CIBZ8cRGUl4iIxor5S6fzN2ykZsl3jjkV_URYdflMe8leU8hNA7ow9045b_3OF9AUt=w300");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -999
 }
